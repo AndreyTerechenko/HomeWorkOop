@@ -13,7 +13,7 @@ public class Main {
         Kogtevran chang = new Kogtevran("Чжоу", "Чанг", 3, 8, "Когтевран", 6, 4, 8, 0);
         Kogtevran patil = new Kogtevran("Падма", "Патил", 5, 4, "Когтевран", 5, 2, 9, 6);
         Kogtevran balby = new Kogtevran("Маркус", "Белби", 8, 7, "Когтевран", 4, 2, 9, 6);
-
+        System.out.println(patil);
         makfloy.topInHogwards(potter);
         chang.topStudent(balby);
         finch.topStudent(dittory);
